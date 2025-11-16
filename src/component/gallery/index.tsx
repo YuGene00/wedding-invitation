@@ -343,15 +343,9 @@ export const Gallery = () => {
           </div>
         </div>
         <div className="carousel-indicator">
-          {CAROUSEL_ITEMS.map((_, idx) => (
-            <button
-              key={idx}
-              className={`indicator${idx === slide ? " active" : ""}`}
-              onClick={() =>
-                onIndicatorClick(statusRef.current, slideRef.current, idx)
-              }
-            />
-          ))}
+          <span className="indicator-text">
+            {slide + 1} / {CAROUSEL_ITEMS.length}
+          </span>
         </div>
       </div>
 

@@ -25,16 +25,16 @@ export const Invitation = () => {
 
       <div className="break" />
 
-      <div className="content">싱그러운 여름 향기 가득한 날</div>
+      <div className="content">포근한 겨울 향기가 스며든 날,</div>
       <div className="content">소중한 분들을 모시고</div>
-      <div className="content">사랑의 약속을 하려고 합니다.</div>
+      <div className="content">사랑의 약속을 드리려 합니다.</div>
       <div className="break" />
-      <div className="content">햇살이 뜨거울 땐 가려주고,</div>
-      <div className="content">비가 오면 우산이 되어주는</div>
+      <div className="content">차가운 바람엔 서로의 온기가 되고,</div>
+      <div className="content">눈이 내리면 서로를 감싸주는</div>
       <div className="content">부부가 되겠습니다.</div>
       <div className="break" />
-      <div className="content">기쁜날 함께 하시어</div>
-      <div className="content">저희의 앞날을 축복해 주세요.</div>
+      <div className="content">따뜻한 발걸음으로 함께하시어</div>
+      <div className="content">저희의 앞날을 축복해 주시면 감사하겠습니다.</div>
 
       <div className="break" />
 
