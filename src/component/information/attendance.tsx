@@ -35,7 +35,7 @@ export const AttendanceInfo = () => {
     if (initialized.current) return
     initialized.current = true
 
-    if (!SERVER_URL || WEDDING_DATE.isBefore(now.current)) return
+    if (!SERVER_URL || WEDDING_DATE.isBefore(now.current) || true) return
 
     openModal({
       className: "attendance-info-modal",
